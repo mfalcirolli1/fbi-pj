@@ -10,4 +10,9 @@ namespace Business.Model
     {
         public string Situation { get; set; }
     }
+
+    public class OperationResult<T> : OperationResult
+    {
+        public T Data { get; set; }
+    }
 }
